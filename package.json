@@ -21,6 +21,7 @@
     "format": "biome format --write ."
   },
   "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.2.0",
     "better-sqlite3": "^11.0.0",
     "drizzle-orm": "^0.31.1"
   },
@@ -30,7 +31,7 @@
     "@sveltejs/kit": "^2.5.10",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@types/better-sqlite3": "^7.6.10",
-    "drizzle-kit": "^0.22.3",
+    "drizzle-kit": "^0.22.4",
     "npm-run-all2": "^6.2.0",
     "svelte": "5.0.0-next.150",
     "svelte-check": "^3.8.0",

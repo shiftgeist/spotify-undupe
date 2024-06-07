@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@spotify/web-api-ts-sdk':
+        specifier: ^1.2.0
+        version: 1.2.0
       better-sqlite3:
         specifier: ^11.0.0
         version: 11.0.0
@@ -31,8 +34,8 @@ importers:
         specifier: ^7.6.10
         version: 7.6.10
       drizzle-kit:
-        specifier: ^0.22.3
-        version: 0.22.3
+        specifier: ^0.22.4
+        version: 0.22.4
       npm-run-all2:
         specifier: ^6.2.0
         version: 6.2.0
@@ -684,6 +687,9 @@ packages:
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
+  '@spotify/web-api-ts-sdk@1.2.0':
+    resolution: {integrity: sha512-JUaebva3Ohwo5I5tuTqyW/FKGOMbb40YevJMySAOINRxP7qQ/AMjBzfJx0zeO6yS+wAPfQSoGNsZaUggHw8vsA==}
+
   '@sveltejs/adapter-node@5.0.1':
     resolution: {integrity: sha512-eYdmxdUWMW+dad1JfMsWBPY2vjXz9eE+52A2AQnXPScPJlIxIVk5mmbaEEzrZivLfO2wEcLTZ5vdC03W69x+iA==}
     peerDependencies:
@@ -906,8 +912,8 @@ packages:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  drizzle-kit@0.22.3:
-    resolution: {integrity: sha512-SWxH9rTE5G6SjKh9ckiEWAvzZ2ZElntQT+Vn4K/jPgSOESKXPlwNby2bTIVutvtBQzo40S9XnyZ7iR6ObvpDHA==}
+  drizzle-kit@0.22.4:
+    resolution: {integrity: sha512-jsiYGqHsbsP/GtM26y/bGK7je1ja+1H/RniCt1ovg2E7tMNraw6XdqKcjxHhb8FonCfDDjvwFgouRsZS46vrmA==}
     hasBin: true
 
   drizzle-orm@0.31.1:
@@ -2056,6 +2062,8 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
+  '@spotify/web-api-ts-sdk@1.2.0': {}
+
   '@sveltejs/adapter-node@5.0.1(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.150)(vite@5.2.12(@types/node@20.14.2)))(svelte@5.0.0-next.150)(vite@5.2.12(@types/node@20.14.2)))':
     dependencies:
       '@rollup/plugin-commonjs': 25.0.8(rollup@4.18.0)
@@ -2294,7 +2302,7 @@ snapshots:
 
   diff-sequences@29.6.3: {}
 
-  drizzle-kit@0.22.3:
+  drizzle-kit@0.22.4:
     dependencies:
       '@esbuild-kit/esm-loader': 2.6.5
       esbuild: 0.19.12

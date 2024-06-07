@@ -1,5 +1,6 @@
 import { db } from '$lib/server/db';
 import { postsTable } from '$lib/server/schema';
+import { eq } from 'drizzle-orm';
 import type { Actions, PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
